@@ -112,7 +112,7 @@ async def start_group(client: Client, message: Message):
     alive = f"**Hello {message.from_user.mention()}, i'm {BOT_NAME}**\n\n✨ Bot is working normally\n🍀 My Master: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n✨ Bot Version: `v{__version__}`\n🍀 Pyrogram Version: `{pyrover}`\n✨ Python Version: `{__python_version__}`\n🍀 Uptime Status: `{uptime}`\n\n**Thanks for Adding me here, for playing music on your Group voice chat** ❤"
 
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/15191fb2748f186fe7a57.mp4",
+        photo=f"{ALIVE_IMG}",
         caption=alive,
         reply_markup=keyboard,
     )
