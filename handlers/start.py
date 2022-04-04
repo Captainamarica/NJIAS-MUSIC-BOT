@@ -81,7 +81,7 @@ async def start_private(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/VeezMusic"
+                        "🌐 Source Code", url="https://t.me/GishanKrishka1_Cloud"
                     )
                 ],
             ]
@@ -112,7 +112,7 @@ async def start_group(client: Client, message: Message):
     alive = f"**Hello {message.from_user.mention()}, i'm {BOT_NAME}**\n\n✨ Bot is working normally\n🍀 My Master: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n✨ Bot Version: `v{__version__}`\n🍀 Pyrogram Version: `{pyrover}`\n✨ Python Version: `{__python_version__}`\n🍀 Uptime Status: `{uptime}`\n\n**Thanks for Adding me here, for playing music on your Group voice chat** ❤"
 
     await message.reply_photo(
-        photo=f"{ALIVE_IMG}",
+        photo=f"https://telegra.ph/file/15191fb2748f186fe7a57.mp4",
         caption=alive,
         reply_markup=keyboard,
     )
@@ -137,7 +137,7 @@ async def help(client: Client, message: Message):
 @Client.on_message(command(["ping", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
 async def ping_pong(client: Client, message: Message):
     start = time()
-    m_reply = await message.reply_text("pinging...")
+    m_reply = await message.reply_text("Pinging...")
     delta_ping = time() - start
     await m_reply.edit_text("🏓 `PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
