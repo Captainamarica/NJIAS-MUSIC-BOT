@@ -1,8 +1,6 @@
- !!</b><br>
-</p>
-
-<p align="center"><a href="https://t.me/gishankrishka1_MUSIC_PLAYER_BOT"><img src=""></a></p>
 <p align="center">
+  <img src="https://telegra.ph/file/4ec1fcfbf7b03cdeb7c2e.jpg" alt="The-HellBot">
+</p>
     <br><b>Veez Music is a telegram bot project that's allow you to play music on telegram voice chat group</b><br>
 </p>
 <p align="center">
