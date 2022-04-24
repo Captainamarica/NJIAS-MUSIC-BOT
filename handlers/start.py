@@ -81,7 +81,7 @@ async def start_private(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://t.me/GishanKrishka1_Cloud"
+                        "🌐 Source Code", url="https://t.me/TME_BOT_SUPPORT_CHANEL"
                     )
                 ],
             ]
