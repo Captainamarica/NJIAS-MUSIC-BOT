@@ -1,13 +1,13 @@
 {
-    "name": "Geez Music Bot",
-    "logo": "https://telegra.ph/file/15191fb2748f186fe7a57.mp4",
-    "description": "Geez music allow you to stream music trought the telegram voice chat feature.",
+    "name": "❂​ꪀꪖ​ꪜꪖ​ꪀ𝓳ꪖ​ꪀꪖ 𝘴ꪖ𝓽​ꫝ𝘴𝓲​ꪀ​ᦔꪊ༒ Music Bot",
+    "logo": "https://telegra.ph/file/4ec1fcfbf7b03cdeb7c2e.jpg",
+    "description": "❂​ꪀꪖ​ꪜꪖ​ꪀ𝓳ꪖ​ꪀꪖ 𝘴ꪖ𝓽​ꫝ𝘴𝓲​ꪀ​ᦔꪊ༒ allow you to stream music trought the telegram voice chat feature.",
     "keywords": [
         "music", 
         "voice chat", 
         "telegram"
     ],
-    "repository": "https://github.com/Gishankrishka2/GeezMusic",
+    "repository": "https://github.com/Captainamarica/NJIAS-MUSIC-BOT",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -110,3 +110,4 @@
         }
     }
 }
+I'm
